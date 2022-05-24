@@ -1,0 +1,337 @@
+.nav_tabs
+{
+    width: 1450px;
+    height: 1950px;
+    margin: 320px auto 10px auto;
+    background-color: #fff;
+    position: relative;    
+}
+.nav_tabs ul
+{
+    list-style: none;
+}
+.nav_tabs ul li
+{
+    float: left;
+}
+.nav_tabs label
+{
+    width: 555px;
+    padding: 15px 85px;
+    background-color: #363b48;
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+}
+.rd_tabs:checked ~ label
+{
+    background-color: #e54e43;
+}
+.rd_tabs
+{
+    display: none;
+}
+.content
+{
+    width: 99.4%;
+    padding: 5px;
+    border-top: 5px solid #e54e43;
+    background-color: rgba(0, 0, 0, .1);
+    display: none;
+    position: absolute;
+    left: 0;
+}
+.rd_tabs:checked ~ .content
+{
+    display: block;
+}
+.content input[type="submit"]
+{
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, .8);
+    width: 25%;
+    margin: 27px 35%;
+    text-align: center;
+    font-size: 15pt;
+}
+.content label
+{
+    padding: 10px;
+    width: 60%;
+    background-color: rgba(115, 222, 230, 0.3);
+    border-radius: 10px;
+    border: 1px solid black;
+    display: inline-block;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 20%;
+}
+.cp_1
+{
+    padding-bottom: 40px;
+    margin: 10px 10px 0px 10px;
+    width: 98.5%;
+
+    border-bottom: 2px solid black;
+
+}
+.cp_1 input, textarea
+{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, .8);
+    text-align: center;
+    margin: 5px 1%;
+    width: 94%;
+    font-size: 15pt;
+}
+.cp_2
+{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin: 0px 10px 0px 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 98.5%;
+    height: 380px;
+ 
+
+}
+#P1
+{
+    width: 39.8%;
+    height: 380px;
+    float: left;
+    border-right: 2px solid rgba(0, 0, 0, .3);
+}
+#P2
+{
+    width: 59.9%;
+    height: 380px;
+    float: right;
+    border-left: 2px solid rgba(0, 0, 0, .3);
+}
+#P2 input, textarea
+{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, .8);
+    text-align: center;
+    margin: 5px 1%;
+    width: 94%;
+    font-size: 15pt;
+}
+.cp_2 label
+{
+    cursor: pointer;
+}
+.cp_2 input[type=radio]
+{
+    display:none;
+}
+.cp_2 input[type="radio"] + label:before
+{
+    border: 1px solid #5D5C5C;
+    content: "\00a0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 16px;
+    margin: 0 .25em 0 0;
+    padding:0;
+    vertical-align: top;
+    width: 16px;
+    border-radius:4px;
+}
+.cp_2 input[type="radio"]:checked + label:before
+{
+    background: #A0A0A0;
+    color: #FFF;
+    content: "\2713";
+    text-align: center;
+}
+ 
+
+
+
+.cp_3
+{   
+    padding-top: 20px;
+    margin: 0px 10px 1px 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 98.5%;
+
+    height: 400px;
+
+}
+#P3
+{
+    width: 39.8%;
+    height: 350px;
+    float: left;
+    border-right: 2px solid rgba(0, 0, 0, .3);
+}
+#P4
+{
+    width: 59.9%;
+    height: 350px;
+    float: right;
+    border-left: 2px solid rgba(0, 0, 0, .3);
+}
+
+
+.cp_3 label
+{
+    cursor: pointer;
+}
+.cp_3 input[type=radio]
+{
+    display:none;
+}
+.cp_3 input[type="radio"] + label:before
+{
+    border: 1px solid #5D5C5C;
+    content: "\00a0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 16px;
+    margin: 0 .25em 0 0;
+    padding:0;
+    vertical-align: top;
+    width: 16px;
+    border-radius:4px;
+}
+.cp_3 input[type="radio"]:checked + label:before
+{
+    background: #A0A0A0;
+    color: #FFF;
+    content: "\2713";
+    text-align: center;
+}
+
+
+.mensagem
+{
+    background-color: rgb(250, 68, 36);
+    border: 1px solid black;
+    text-align: center;
+    width: 94%;
+    font-size: 25pt;
+    padding: 20px;
+    margin-left: 22px;
+}
+
+.scroll
+{
+    overflow: auto;
+}
+
+
+/*----------------------------area comentario--------------------------*/
+
+
+.area-comentario{
+    box-sizing: border-box;
+    border-bottom: 2px solid rgb(44, 43, 43);
+    clear: both;
+    padding: 30px;
+    margin-top: 10px;
+}
+.area-comentario img{
+    width: 80px;
+    float: left;
+    padding-right: 30px;
+}
+.area-comentario h3{
+    float: left;
+    color: rgb(6, 6, 138);
+    font-size: 18pt;
+    padding: 15px;
+    width: 25%;
+    border-right: 1px solid black;
+}
+.area-comentario h4{
+    float: left;
+    font-size: 15pt;
+    color: rgba(0, 0, 0, .6);
+    line-height: 30px; 
+    width: 60%;
+}
+.area-comentario h4 a{
+    text-decoration: none;
+    font-size: 18pt;
+    float: right;
+    color: black;
+}
+.area-comentario h4 a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.area-comentario p{
+    line-height: 25px;
+    width: 600px;
+    margin-left: 500px;
+}
+
+
+@media(max-width: 800px)
+{
+    .nav_tabs
+    {
+        margin: 500px auto;
+        width: auto;
+    }
+    .nav_tabs label
+    {
+        width: 40px;
+        padding: 10px 70px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.exemplo2 input[type=radio], .exemplo2 input[type=checkbox]{
+    display:none;  Esconde os inputs 
+}
+ 
+.exemplo2 label {
+    cursor: pointer;
+}
+.exemplo2 input[type="radio"] + label:before, .exemplo2 input[type="checkbox"] + label:before {
+    border: 1px solid #5D5C5C;
+    content: "\00a0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 16px;
+    margin: 0 .25em 0 0;
+    padding:0;
+    vertical-align: top;
+    width: 16px;
+    border-radius:4px;
+}
+ 
+.exemplo2 input[type="radio"]:checked + label:before, .exemplo2 input[type="checkbox"]:checked + label:before {
+    background: #A0A0A0;
+    color: #FFF;
+    content: "\2713";
+    text-align: center;
+}
+ 
+.exemplo2 input[type=radio"]:checked + label:after, .exemplo2 input[type="checkbox"]:checked + label:after {
+    font-weight: bold;
+}
+*/

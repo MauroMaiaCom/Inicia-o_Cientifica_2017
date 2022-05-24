@@ -1,0 +1,115 @@
+
+
+.infm
+{
+    padding: 10px;
+    margin: 70px;
+    background-color: rgb(216, 248, 194);
+    width: 90%;
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+/*-------------------------------------------------------------------*/
+
+
+.info{
+    box-sizing: border-box;
+    border: 1px solid rgb(44, 43, 43);
+    clear: both;
+    padding: 35px;
+    margin: 10px;
+    border-radius: 30px;
+}
+.info img{
+    float: left;
+}
+.info h3{
+    float: left;
+    color: rgb(6, 6, 138);
+    font-size: 18pt;
+    padding: 15px;
+    width: 25%;
+    border-right: 1px solid black;
+}
+.info h4{
+    float: left;
+    font-size: 15pt;
+    color: rgba(0, 0, 0, .6);
+    line-height: 30px; 
+    width: 60%;
+}
+.info h4 a{
+    text-decoration: none;
+    font-size: 18pt;
+    float: right;
+    color: black;
+}
+.info h4 a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.info p{
+    float: none;
+    line-height: 25px;
+    padding: 10px;
+    margin-left: 500px;
+    width: 500px;
+    height: 55px;
+}
+
+/*-------------------------------------------------------------------*/
+
+
+.megk h1
+{
+    margin: 10px;
+    font-size: 45pt;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.megk h2
+{
+    margin: 10px;
+    font-size: 20pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(0, 0, 0, .6);
+}
+.megk img
+{
+    width: 50%;
+    padding: 45px;
+}
+.megk p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    padding: 10px;
+}
+.megk h4
+{
+    font-size: 20px;
+    text-align: left;
+    margin: 20px;
+}
+.megk a
+{
+    color: black;
+    background-color: rgba(0, 0, 0, .4);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 9px;
+    border: 1px solid rgba(0, 0, 0, .9);
+    border-radius: 10px;
+    
+}
+.megk a:hover
+{
+    color: rgb(11, 0, 112);
+}
+
+#p2
+{
+    margin-bottom: 50px;
+}

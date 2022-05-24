@@ -1,0 +1,81 @@
+
+.corpo
+{
+    background-color: rgba(0, 0, 0, .3);
+    width: 95%;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 10px 8px;
+}
+.corpo h1
+{
+    text-align: center;
+    font-size: 50px;
+}
+.corpo p
+{
+    text-align: center;
+    padding: 15px 100px;
+    font-size: 19px;
+}
+.corpo h4
+{
+    font-size: 17pt;
+    margin: 5px;
+    padding: 20px;
+}
+
+
+
+
+.cp_1
+{
+    width: 48%;
+    height: 450px;
+    float: left;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.cp_1 label
+{
+    font-size: 17pt;
+    
+}
+
+
+
+
+.cp_2
+{
+    width: 48%;
+    height: 450px;
+    float: right;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.cp_2 label
+{
+    font-size: 17pt;
+}
+
+.lampada, .Televisor, .arcond, .lavar
+{
+    padding: 10px;
+}
+
+
+.botao
+{
+    text-align: center;
+    font-size: 18pt;
+}
+
+.botao input[type="submit"]
+{
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, .8);
+    width: 25%;
+    margin: 27px 35%;
+    text-align: center;
+    font-size: 15pt;
+}

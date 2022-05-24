@@ -1,0 +1,35 @@
+
+
+
+.info
+{
+    padding: 5px;
+    margin: 70px;
+    background-color: rgb(216, 248, 194);
+    width: 90%;
+    text-align: center;
+    border-radius: 30px;
+}
+.info img
+{
+    width: 50%;
+    margin: 30px 150px;
+    border-radius: 50px;
+}
+.info h1
+{
+    font-size: 40pt;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.info h2
+{
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info p
+{
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 100px;
+}
